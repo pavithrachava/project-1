@@ -1,0 +1,294 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap');
+
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    }
+/* the header part*/
+.header_nav{
+    height: 120px;
+    background-color: #efa95e;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+/* page design*/
+.header_page{
+    display: flex;
+    text-decoration:none;
+    list-style: none;
+    font-family: "Fredoka", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    gap:70px;
+    justify-content: space-evenly;
+    font-size: 25px;
+    }
+    /* the list desing*/
+.header_nav_link{
+text-decoration: none;
+color: #282626;
+}
+.header_nav_link:hover{
+    color:#dc143c;
+}
+/* the header button*/
+.header_nav_button{
+    font-family: "Fredoka", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 25px; 
+    color: #dc143c;
+    background-color: #efa95e;
+    border-color: #dc143c ;
+    }
+.header_nav_button:hover{
+    background-color: #dc143c;
+    color:#000000;
+} 
+/* home page decoration*/  
+#home{
+  display: flex; 
+  height: 1000px; 
+  background-color: #edd0ac;
+  }
+
+.sec_div1,.sec_div2{
+    width:500px;
+}
+.sec_p{
+    font-family: "Fredoka", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-size: 70px;
+    color:black;
+    font-weight: 500;
+    position: relative;
+    top:300px ;
+    left:50px ;
+}
+.sec_button{
+    font-family: "Fredoka", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-size: 30px;
+    color:#dc143c;
+    background-color: #edd0ac;
+    position: relative;
+    top: 370px;
+    left:150px;
+    border-color: #dc143c;
+
+}
+.sec_button:hover{
+    background-color: #dc143c;
+    color:#000000 ;
+}
+.sec_div3_h3{
+     background-color:  #efa95e;
+     color: #1f1e1e;
+     font-family: "Fredoka", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    height:100px ;
+     font-size: 40px;
+     text-align: center;
+     padding: 15px;
+     
+}
+.sec_nav2{
+    display: flex;
+    background-color:  #edd0ac;
+}
+
+.sec_div3_p{
+    font-family: "Fredoka", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+  background-color:  #edd0ac;
+  color: #302f2f;
+  font-size: 17px;
+  }
+.sec_div3_p:hover{
+    border-color: #000000;
+    color: #dc143c;
+}
+/* about page design*/
+.sec_div4_h3{
+    background-color: #efa95e ;
+    color: #1f1e1e;
+    font-family: "Fredoka", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    height:100px ;
+    font-size: 40px;
+    text-align: center;
+    padding: 15px;
+    }
+.sec_div4_p{
+    font-size: 40px;
+    font-family: "Fredoka", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+  text-align: center;
+} 
+.bg{background-color:  #edd0ac;
+height: 100vh;}
+.sec_nav3{
+    font-family: "Fredoka", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    text-align: left;
+    padding: 100px;
+    }
+    /*login page*/
+    .body2{
+        background-color: #efa95e;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+    }
+    .login-container {
+        background-color:#edd0ac;
+        padding: 30px;
+        border-radius: 12px;
+        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+        width: 450px;
+        text-align: center;
+      }
+      
+      /* Login Title */
+      .login-title {
+        font-family: "Fredoka", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 800;
+        font-size: 28px;
+        margin-bottom: 20px;
+        color: #333;
+      }
+      
+      /* Input Group Styling */
+    
+      .input-group {
+        margin-bottom: 25px;
+        text-align: left;
+      }
+      
+      .input-group label {
+        font-family: "Fredoka", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 600;
+        display: block;
+        margin-bottom: 5px;
+        color: #302f2f;
+      }
+      
+      .input-group input {
+        width: 100%;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 8px;
+        font-size: 16px;
+      }
+      
+      /* Next Button Styling */
+      .next-button {
+        font-family: "Fredoka", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 600;
+        width: 100%;
+        padding: 12px;
+        background-color: #efa95e;
+        color: #000000;
+        border: none;
+        border-radius: 8px;
+        font-size: 18px;
+        cursor: pointer;
+        transition: background-color 0.3s;
+      }
+      
+      .next-button:hover {
+        background-color: #000000;
+        color: #efa95e;
+      }
+      
+      /* Mobile Responsiveness */
+      @media (max-width: 400px) {
+        .login-container {
+          width: 100%;
+        }
+      } 
+      
+      
+      /*contact information 
+      General Styles */
+.body3 {
+     
+    background-color: #edd0ac;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  /* Contact Form Container */
+  .contact-container {
+    background-color: #efa95e;
+    width: 400px;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .contact-container h2 {
+    font-family: "Fredoka", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    margin-bottom: 20px;
+    color: #fff;
+    font-size: 28px;
+  }
+  
+  /* Input Group Styles */
+  .input-group {
+    margin-bottom: 15px;
+    text-align: left;
+  }
+  
+  .input-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: #fff;
+    font-size: 16px;
+  }
+  
+  .input-group input {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    box-sizing: border-box;
+  }
+  
+  /* Button Styles */
+  button {
+    background-color: #edd0ac;
+    color: #333;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #fff;
+  }
+  
